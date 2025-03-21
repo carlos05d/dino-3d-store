@@ -1,118 +1,114 @@
-Dino 3D Store
+
+# Dino 3D Store
 
 Welcome to the Dino 3D Store repository! This project is a web application designed to showcase and sell 3D dinosaur models. Built with modern web technologies, it offers an interactive and user-friendly experience for dinosaur enthusiasts and 3D model collectors.
 
-Features
+## Features
 
-Interactive 3D Models: Users can view and interact with high-quality 3D dinosaur models directly in their browsers.
+- **Interactive 3D Models**: Users can view and interact with high-quality 3D dinosaur models directly in their browsers.
+- **Responsive Design**: The application is optimized for various devices, ensuring a seamless experience on desktops, tablets, and smartphones.
+- **Secure Transactions**: Integrated with secure payment gateways to facilitate safe and smooth purchases.
+- **User Authentication**: Allows users to create accounts, manage their profiles, and track their orders.
 
-Responsive Design: The application is optimized for various devices, ensuring a seamless experience on desktops, tablets, and smartphones.
+## Technologies Used
 
-Secure Transactions: Integrated with secure payment gateways to facilitate safe and smooth purchases.
+- **Frontend**:
+  - [React](https://reactjs.org/): A JavaScript library for building user interfaces.
+  - [Three.js](https://threejs.org/): A 3D library that makes WebGL simpler.
+  - [Tailwind CSS](https://tailwindcss.com/): A utility-first CSS framework for styling.
 
-User Authentication: Allows users to create accounts, manage their profiles, and track their orders.
+- **Backend**:
+  - [Node.js](https://nodejs.org/): A JavaScript runtime built on Chrome's V8 JavaScript engine.
+  - [Express](https://expressjs.com/): A minimal and flexible Node.js web application framework.
+  - [Supabase](https://supabase.io/): An open-source Firebase alternative providing backend services.
 
-Technologies Used
+- **Database**:
+  - [PostgreSQL](https://www.postgresql.org/): A powerful, open-source object-relational database system.
 
-Frontend:
-
-React: A JavaScript library for building user interfaces.
-
-Three.js: A 3D library that makes WebGL simpler.
-
-Tailwind CSS: A utility-first CSS framework for styling.
-
-Backend:
-
-Node.js: A JavaScript runtime built on Chrome's V8 JavaScript engine.
-
-Express: A minimal and flexible Node.js web application framework.
-
-Supabase: An open-source Firebase alternative providing backend services.
-
-Database:
-
-PostgreSQL: A powerful, open-source object-relational database system.
-
-Getting Started
+## Getting Started
 
 To run this project locally, follow these steps:
 
-Clone the repository:
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/carlos05d/dino-3d-store.git
+   ```
 
-git clone https://github.com/carlos05d/dino-3d-store.git
+2. **Navigate to the project directory**:
+   ```bash
+   cd dino-3d-store
+   ```
 
-Navigate to the project directory:
+3. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-cd dino-3d-store
+4. **Set up environment variables**:
+   - Rename the `.env.example` file to `.env`.
+   - Fill in the necessary environment variables, such as database credentials and API keys.
 
-Install dependencies:
+5. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
 
-npm install
+6. **Access the application**:
+   - Open your browser and navigate to `http://localhost:3000`.
 
-Set up environment variables:
+## Project Structure
 
-Rename the .env.example file to .env.
-
-Fill in the necessary environment variables, such as database credentials and API keys.
-
-Run the development server:
-
-npm run dev
-
-Access the application:
-
-Open your browser and navigate to http://localhost:3000.
-
-Project Structure
-
+```
 dino-3d-store/
 ├── src/
-│   ├── components/      # React components
-│   ├── assets/          # Images, 3D models, and other assets
-│   ├── pages/           # Page components
-│   ├── services/        # API calls and backend services
-│   └── App.tsx          # Main application component
+│   ├── components/        # React components
+│   ├── assets/            # Images, 3D models, and other assets
+│   ├── pages/             # Page components
+│   ├── services/          # API calls and backend services
+│   └── App.tsx            # Main application component
 ├── public/
-│   ├── index.html       # Main HTML file
-│   └── ...              # Other public assets
-├── .env.example         # Example environment variables file
-├── package.json         # NPM scripts and dependencies
-└── README.md            # Project documentation
+│   ├── index.html         # Main HTML file
+│   └── ...                # Other public assets
+├── .env.example           # Example environment variables file
+├── package.json           # NPM scripts and dependencies
+└── README.md              # Project documentation
+```
 
-Contributing
+## Contributing
 
 We welcome contributions from the community! To contribute:
 
-Fork the repository.
+1. **Fork the repository.**
 
-Create a new branch:
+2. **Create a new branch**:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
 
-git checkout -b feature/your-feature-name
+3. **Make your changes.**
 
-Make your changes.
+4. **Commit your changes**:
+   ```bash
+   git commit -m 'Add some feature'
+   ```
 
-Commit your changes:
+5. **Push to the branch**:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
 
-git commit -m 'Add some feature'
-
-Push to the branch:
-
-git push origin feature/your-feature-name
-
-Open a pull request.
+6. **Open a pull request.**
 
 Please ensure your code follows our coding standards and includes relevant tests.
 
-License
+## License
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-Acknowledgements
+## Acknowledgements
 
-Thanks to the contributors of Three.js for providing an excellent 3D library.
+- Thanks to the contributors of Three.js for providing an excellent 3D library.
+- Hat tip to Supabase for their open-source backend services.
+- Inspired by various open-source projects in the community.
 
-Hat tip to Supabase for their open-source backend services.
-
-Inspired by various open-source projects in the community.
 
