@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.app.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "outDir": "./dist-test",
+    "module": "CommonJS"
+  },
+  "include": ["supabase-test.ts"]
+}
